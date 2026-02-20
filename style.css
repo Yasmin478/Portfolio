@@ -1,0 +1,34 @@
+body{
+    background-color: #c18a8a;
+    font-family:'Times New Roman', serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: #fff;
+    margin-top: 20px;
+}
+p{
+    color: #fff;
+    font-size: 18px;
+    margin: 20px;
+}
+a{
+    color: #580f0f;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+}
+a:hover{
+    text-decoration: underline;
+}               
+button{
+    color: #f7ebeb;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px;
+   }   
