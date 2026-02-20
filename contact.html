@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Yasmin Islam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Get In Touch</h2>
+
+        <form action="#" method="POST">
+            <div>
+                <label for="fullname">Full Name</label><br>
+                <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="email" required placeholder="Enter your email id">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="subject">Subject</label><br>
+                <input type="text" id="subject" name="subject" required placeholder="Enter the subject">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your message here"></textarea>
+            </div>
+
+    <fieldset>
+        <legend>Project Type</legend>
+
+            <div>
+                <input type="radio" id="cloud" name="project_type" value="cloud">
+                <label for="cloud">Cloud Setup</label>
+            </div>
+
+            <div>
+                <input type="radio" id="devops" name="project_type" value="devops">
+                <label for="devops">DevOps Automation</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="website" name="project_type" value="website" required>
+                <label for="website">Website Development</label>
+            </div>
+
+            
+    </fieldset>
+
+            <br>
+
+            <button type="submit">Send Message</button>
+
+            <p>This form is currently for demonstration purposes only.</p>
+        
+        </form>
+    </section>
+
+</body>
+</html>
