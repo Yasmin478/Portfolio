@@ -4,75 +4,64 @@
     <meta charset="UTF-8">
     <title>Contact | Yasmin Islam</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>Contact Me</h1>
-        <nav>
-            <a href="index.html">Home</a>
-        </nav>
-    </header>
+<div class="container">
 
-    <section>
-        <h2>Get In Touch</h2>
+    <h1>Contact Me</h1>
 
-        <form action="#" method="POST">
-            <div>
-                <label for="fullname">Full Name</label><br>
-                <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name">
-            </div>
+    <form>
 
-            <br>
+        <!-- Full Name -->
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" placeholder="Enter your full name" required>
 
-            <div>
-                <label for="email">Email Address</label><br>
-                <input type="email" id="email" name="email" required placeholder="Enter your email id">
-            </div>
+        <!-- Email -->
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
 
-            <br>
+        <!-- Subject -->
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" placeholder="Subject">
 
-            <div>
-                <label for="subject">Subject</label><br>
-                <input type="text" id="subject" name="subject" required placeholder="Enter the subject">
-            </div>
+        <!-- Message -->
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Write your message"></textarea>
 
-            <br>
+        <!-- Project Type -->
+        <fieldset>
+            <legend>Project Type</legend>
 
-            <div>
-                <label for="message">Message</label><br>
-                <textarea id="message" name="message" rows="5" placeholder="Enter your message here"></textarea>
-            </div>
-
-    <fieldset>
-        <legend>Project Type</legend>
-
-            <div>
+            <div class="radio-group">
                 <input type="radio" id="cloud" name="project_type" value="cloud">
                 <label for="cloud">Cloud Setup</label>
             </div>
 
-            <div>
+            <div class="radio-group">
                 <input type="radio" id="devops" name="project_type" value="devops">
                 <label for="devops">DevOps Automation</label>
             </div>
-            
-            <div>
+
+            <div class="radio-group">
                 <input type="radio" id="website" name="project_type" value="website" required>
                 <label for="website">Website Development</label>
             </div>
+        </fieldset>
 
-            
-    </fieldset>
+        <button type="submit">Send Message</button>
 
-            <br>
+        <p class="note">
+            This form is currently for demonstration purposes only.
+        </p>
 
-            <button type="submit">Send Message</button>
+    </form>
 
-            <p>This form is currently for demonstration purposes only.</p>
-        
-        </form>
-    </section>
+    <a href="index.html" class="btn">Back Home</a>
+
+</div>
 
 </body>
 </html>
