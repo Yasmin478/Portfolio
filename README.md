@@ -11,7 +11,7 @@ This project demonstrates core concepts of web structure, version control, and l
 - Developed using semantic HTML5
 - Styled with custom CSS3
 - Structured for clean layout and maintainability
-- Hosted locally using Python HTTP server on Ubuntu
+- Hosted locally using Python HTTP server
 - Version controlled with Git
 - Securely pushed to GitHub using SSH authentication
 
