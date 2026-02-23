@@ -1,54 +1,66 @@
-#  Personal Portfolio Website
+# Personal Portfolio Website
 
-This is my personal portfolio website built using HTML and CSS.
+A static personal portfolio website built with HTML5 and CSS3 as part of my foundational training toward a Cloud & DevOps Engineering career.
 
-It showcases my background, skills, and learning journey as I work toward a career in Cloud & DevOps Engineering.
+This project demonstrates core concepts of web structure, version control, and local server hosting in a Linux environment.
 
 ---
 
-##  About This Project
+## Project Overview
 
-- Built using semantic HTML
-- Styled with custom CSS
-- Responsive layout fundamentals
-- Hosted locally using Python HTTP server
+- Developed using semantic HTML5
+- Styled with custom CSS3
+- Structured for clean layout and maintainability
+- Hosted locally using Python HTTP server on Ubuntu
 - Version controlled with Git
-- Pushed securely using SSH authentication
+- Securely pushed to GitHub using SSH authentication
 
 ---
 
-##  Technologies Used
+## Tech Stack
 
 - HTML5
 - CSS3
-- Git & GitHub
-- Linux (Ubuntu)
+- Git
+- GitHub
+- Linux (Ubuntu VM)
 - VS Code
 
 ---
 
-##  My Career Goal
+## DevOps Concepts Practiced
 
-I am currently training toward becoming a Cloud / DevOps Engineer.  
-This project is part of my foundational learning in web infrastructure, version control, and deployment concepts.
-
----
-
-##  Future Improvements
-
-- Add responsive design improvements
-- Introduce JavaScript
-- Deploy on cloud (AWS)
-- Configure Nginx reverse proxy
-- Implement CI/CD pipeline
+- Linux file system navigation
+- Local web server configuration
+- Git workflow (init, add, commit, push)
+- SSH key-based authentication
+- Basic deployment principles
 
 ---
 
-##  Connect With Me
+## Career Objective
+
+Currently pursuing structured training toward a Cloud / DevOps Engineer role.  
+Focused on building strong foundations in Linux, networking, Git, web servers, and cloud deployment.
+
+---
+
+## Planned Enhancements
+
+- Improve responsive design
+- Add JavaScript interactivity
+- Deploy on AWS EC2
+- Configure Nginx as reverse proxy
+- Implement CI/CD pipeline (GitHub Actions)
+- Containerize using Docker
+
+---
+
+## Connect With Me
 
 - GitHub: https://github.com/Yasmin478
 - LinkedIn: https://www.linkedin.com/in/yasmin47/
 
 ---
 
-⭐ This project is part of my 6-month structured DevOps training journey.
+⭐ This repository is part of my 6-month structured Cloud & DevOps learning roadmap.
