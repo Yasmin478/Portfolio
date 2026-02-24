@@ -189,3 +189,11 @@ legend {
     padding: 10px;
     border-radius: 6px;
 }
+
+#formOutput {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #eef2f7;
+    border-radius: 8px;
+    border-left: 4px solid #0077b6;
+    }
